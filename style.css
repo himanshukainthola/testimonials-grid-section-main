@@ -3,8 +3,8 @@
     --clr-dark-greyish-blue: 217 19% 35%;
     --clr-blackish-blue: 219 29% 14%;
     --clr-white: 0 0% 100%;
-    --clr-gray: 210 46% 95%;
-    --clr-grayish-blue: 0 0% 81%;
+    --clr-grey: 210 46% 95%;
+    --clr-greyish-blue: 0 0% 81%;
 
     --ff-primary: "Barlow Semi Condensed", sans-serif;
 
@@ -95,7 +95,7 @@ body {
     min-height: 100vh;
     font-family: var(--ff-primary);
     font-weight: var(--fw-400);
-    background: var(--clr-gray);
+    background-color: hsl(var(--clr-grey));
     display: grid;
     place-content: center;
 }
